@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+body {
+  background-color:rgb(250, 195, 223);
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 16px;
+  color: rgb(87,87,87);
+  text-align: center;
+}
+
+h1 {
+  color: rgb (87,87,87);
+  font-size: 32px;
+}
+
+h2 {
+  color: rgb (87,87,87);
+  font-size: 32px;
+}
+
+a {
+  size: 100px;
+  color:rgb(245, 189, 217);
+  
+}
+
+.fab:before { 
+font-size: 32px;
+}
+
+i {
+  width:100px;
+  height: 40px;
+}
+
+.button-lewagon {
+  margin: 20;
+  padding-bottom: 2px;
+  width:100px;
+  height: 40px;
+  background-color:rgb(245, 189, 217);
+  font-size: 16px;
+  border: 1px;
+  border-radius: 5px;
+  color: white;
+  font-family:'Franklin Gothic Medium';
+  }
+
+.home-card {
+  background-color: white;
+  text-align: center;
+  box-shadow: 2px, 10, 25px lightgrey;
+  margin: 20px;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  }
+
+.img-circle {
+  border-radius: 50%;
+  }
+
+.text-center {
+  text-align: center;
+  }
+  
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+}
+  
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+}  
+
+.fa-instagram-square:before {
+font-size: 32px;
+}
